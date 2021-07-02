@@ -1,0 +1,116 @@
+html { 
+    background: url(./Afbeeldingen/Ebrusanatibackground.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-gap: 50px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+    font-family: akaya kanadaka;
+    font-weight: bolder;
+    padding: 35px;
+    color: rgb(145, 10, 32);
+}
+
+.home {
+    background-image: url(./Afbeeldingen/Hatip_Yürek_Ebru.jpg);
+    border: 10px ridge grey;
+    width: 200px;
+}
+
+.fotos {
+    background-image: url(./Afbeeldingen/800px-Taraklı_Şal_Ebru.jpg);
+    border: 10px ridge grey;
+    width: 200px;
+    color: white;
+}
+
+.soorten {
+    background-image: url(./Afbeeldingen/800px-Battal_Ebru.jpg);
+    border: 10px ridge grey;
+    width: 200px;
+}
+
+.geschiedenis {
+    background-image:url(./Afbeeldingen/ebru025.jpg);
+    border: 10px ridge grey;
+    width: 250px;
+    color: white;
+}
+
+.contact {
+    background-image: url(./Afbeeldingen/2020-05-04@09-42-36-744_Ebru\ sanatı\ nedir.jpg);
+    border: 10px ridge grey;
+    width: 200px;
+}
+
+h1 {
+    display: grid;
+    font-family: akaya kanadaka;
+    grid: template columns 1fr;;
+    justify-content: space-evenly;
+    font-weight: bolder;
+    font-size: 75px;
+    color: darkblue;
+}
+
+main {
+    display: grid;
+    text-align: center;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    color: darkblue;
+    font-weight: bolder;
+    font-size: xx-large;
+    font-family: akaya kanadaka;
+}
+
+footer{
+    display: flex;
+    flex-direction: column-reverse;
+    color: darkblue;
+    font-weight: bolder;
+    text-align: end;
+    margin-top: 100px;
+}
+
+@media (min-width: 1024px) {
+    html {
+    background-image: url(./Afbeeldingen/ebru020.jpg);
+}
+}
+
+@media (max-width: 1024px) {
+main {
+    color: darkcyan;
+    justify-content: center space-between;
+}
+}
+
+@media (min-width: 400px) {
+    ul { 
+    justify-content: center space-between;
+        
+}
+}
+
+@media (max-width: 400px) {
+    ul {
+        justify-content: center;
+    }
+}

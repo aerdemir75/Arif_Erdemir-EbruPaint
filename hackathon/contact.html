@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap" rel="stylesheet">
+
+    <title>EBRU PAINT</title>
+
+</head>
+
+<body>
+    <header>
+    <nav>
+        <ul>
+        <li class="home"><a href="./index.html"> HOME</a></li>
+        <li class="fotos"><a href="./fotos.html" target="_self">FOTO'S</a></li>
+        <li class="soorten"><a href="./soorten.html" target="_self">SOORTEN</a></li>
+        <li class="geschiedenis"><a href="./geschiedenis.html" target="_self"> GESCHIEDENIS</a></li>
+        <li class="contact"><a href="./contact.html" target="_self"> CONTACT</a></li>
+    </ul>
+
+    </nav>
+</header>
+    <contact>
+        <input type="hidden" name="form-name" value="contact">
+
+        <form name="contact" method="POST" data-netlify="true">
+           <h3>Naam:</h3>
+            <p>
+                <input type="text" name="Voornaam" />
+                <input type="text" name="Achternaam" />
+            </p>
+            <h3>Email:</h3>
+            <p>
+                <input type="text" name="email" />
+            </p>
+            
+            <h3>Opmerking: (Be gentle plz)</h3>
+            <p>
+                <textarea name="message" rows="10" cols="50"></textarea>
+            </p>
+            
+            <h3>Jouw eigen Website/Url:</h3>
+            <p>
+                <input type="url" name="url" />
+
+            </p>
+            
+            <p class="reset-submit">
+                <input type="reset">
+                <button type="button" onclick="alert ( 'Bedankt voor je Opmerkingen' )">Verzenden</button>
+                
+            </p>
+
+        </form>
+    </contact>
+    <footer>
+        
+            <p>&copy; 2021 BY ERDECO</p>
+        
+    </footer>
+</body>
+
+</html>
